@@ -28,6 +28,7 @@ setup(
     packages=find_packages(exclude=["contrib", "docs", "tests*"]),
     scripts=[],
     install_requires=[
+        "scikit-image",
         "datajoint>=0.13.0",
         "ipykernel>=6.0.1",
         "ipywidgets",
@@ -35,7 +36,6 @@ setup(
         "plotly",
         "seaborn",
         "spikeinterface",
-        "scikit-image",
         "nbformat>=4.2.0",
         "pyopenephys>=1.1.6",
     ],
